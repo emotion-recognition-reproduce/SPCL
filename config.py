@@ -66,7 +66,7 @@ CONFIG = {
     'train_obj': 'psup',
     'speaker_vocab' : '',
     'emotion_vocab' : '',
-    'temp_path': '',
+    'temp_path': '/tmp/SPCL/',
     'ngpus' : torch.cuda.device_count(),
     'device': torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 }
